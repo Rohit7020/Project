@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    margin: 0px;
+}
+.cont{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(62, 62, 224, 0.4),rgba(87, 25, 105, 0.767)),url(https://wallpapercave.com/wp/wp2464962.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-image: url(https://t3.ftcdn.net/jpg/00/71/27/84/240_F_71278463_Wjl2MtrvOvLNdR6JOc4qzBEsyUMkd500.jpg);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+.nir{
+    width: 100%;
+    height: 12vh;
+    position: relative;
+    left: 50%;
+}
+.left{
+    width: 15%;
+}
+.right{
+    width: 85%;
+    display: flex;
+    position: absolute;
+    right: 3%;
+    top: 5vh;
+    justify-content: flex-end;
+}
+.right div{
+    padding: 2px 15px;
+}
+.x{
+    color: black;
+    text-decoration: none;
+}
+.y{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    position: absolute;
+    top:20%;
+    left: 25%;
+    text-align: center;
+}
+.effects{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+    display: flex;
+}
+.e1{
+    width: 13%;
+    height: 60vh;
+    background-color:white;
+    position: relative;
+    left: 2%; 
+    top: 3vh;
+    border-radius: 10px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    width: 60%;
+    height: 10vh;
+    border-radius: 30px;
+    position: relative;
+    top: 2vh;
+    left: 20%;
+}
+.p{
+    position: relative;
+    top: 3vh;
+    left: 4%;
+}
+.e2{
+    width: 13%;
+    height: 57vh;
+    background-color: white;
+    position: relative;
+    top:10%; 
+    left: 7%; 
+    border-radius: 10px;
+}
+.e3{
+    width: 13%;
+    height: 60vh;
+    top: 3vh;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    left: 10%; 
+}
+.e4{
+    width: 13%;
+    height: 57vh;
+    background-color: white;
+    position: relative;
+    top:10%; 
+    left: 13%; 
+    border-radius: 10px;
+}
+.e5{
+    width: 13%;
+    height: 60vh;
+    top: 3vh;
+    background-color: white;
+    position: relative;
+    left: 17%; 
+    border-radius: 10px;
+}
+.e6{
+    width: 13%;
+    height: 57vh;
+    background-color: white;
+    position: relative;
+    top:10%; 
+    left: 19%;
+    border-radius: 10px;
+}
+.star{
+    color: gold;
+}
+.centre{
+    text-align: center;
+    
+}
+.Testimonials{
+    background-color: whitesmoke;
+}
+.t1{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 35vh;
+    position: relative;
+    left: 1%;
+}
+.t2{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 35vh;
+    position: relative;
+    left: 28%;
+}
+.t3{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 35vh;
+    position: relative;
+    left: 33%;
+}
+.t4{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 35vh;
+    position: relative;
+    left: 1%;
+}
+.t5{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 35vh;
+    position: relative;
+    left: 28%;
+}
+.review1,.review2,.review3,.GST,.service1,.service2{
+    display:flex;  
+}
+.im1,.im2,.im3,.im4,.im5{
+    width: 20%;
+    height: 10vh;
+    position: relative;
+    left: 40%;
+    top: 10px;
+    border-radius: 20px;
+}
+.price1{
+    width: 100%;
+    height:120vh;
+    display: flex;
+}
+.price2{
+    width: 100%;
+    height:120vh;
+    display: flex;
+}
+.price3{
+    width: 100%;
+    height:90vh;
+    display: flex;
+}
+.p1{
+    background-color: whitesmoke;
+    width: 25%;
+    position:relative;
+    left: 4%;
+}
+.p2{
+    background-color: whitesmoke;
+    width: 25%;
+    position:relative;
+    left: 12%;
+}
+.p3{
+    background-color: whitesmoke;
+    width: 25%;
+    position:relative;
+    left: 20%;
+}
+.im6{
+    position: relative;
+    left: 7%;
+    top: 10px;
+    border-radius: 20px;
+}
+.im7{
+    position: relative;
+    left: 8%;
+    top: 10px;
+    border-radius: 20px;
+}
+.im8{
+    position: relative;
+    left: 8%;
+    top: 10px;
+    border-radius: 20px;
+}
+h6{
+    position: relative;
+    left: 20px;
+}
+.silver{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 110vh;
+    position:relative;
+    left: 4%;
+}
+.gold{
+    background-color: whitesmoke;
+    width: 25%;
+    position:relative;
+    left: 12%;
+}
+.custom{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 100vh;
+    position:relative;
+    left: 20%;
+}
+.im9{
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+}
+.im10{
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+}
+.im11{
+    width: 70%;
+    height: 30vh;
+    position: relative;
+    left: 15%;
+    top: 10px;
+    border-radius: 50px;
+}
+.start{
+    width: 25%;
+    position:relative;
+    left: 4%;
+}
+.basic{  
+    width: 25%;
+    position:relative;
+    left: 12%;
+}
+.pro{
+    width: 25%;
+    position:relative;
+    left: 20%;
+}
+.im12{
+    position: relative;
+    top: 10px;
+    left: 25%;
+    border-radius: 20px;
+}
+.im13{
+    position: relative;
+    top: 10px;
+    left: 25%;
+    border-radius: 20px;
+}
+.im14{
+    width: 30%;
+    height: 12vh;
+    position: relative;
+    left: 25%;
+    top: 10px;
+}
+.click{
+    background-color: orange;
+    height: 5vh;
+    border-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+.sole{
+    background-color: antiquewhite;
+    width: 40%;
+    height: 55vh;
+    position: relative;
+    left: 6%;
+}
+.shop{
+    background-color: antiquewhite;
+    width: 40%;
+    height: 55vh;
+    position: relative;
+    left: 14%;
+}
+.span{
+    color: orange;
+    position: relative;
+    left: 8%;
+    top: 2vh;
+}
+.img7,.img8{
+    width: 13%;
+    position: relative;
+    left: 4%;
+    top: 2vh;
+}
+.top{
+    position: relative;
+    top: 5vh;
+    left: 7%;
+}
+.top2{
+    position: relative;
+    top: 1vh;
+    left: 7%;
+}
+.click2{
+    background-color: blue;
+    height: 5vh;
+    border-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.shop:hover,.sole:hover{
+    zoom: 103%;
+    box-shadow:5px 5px 5px rgb(133, 129, 129);
+}
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.img9{
+    width: 35%;
+    height: 50vh;
+    position: relative;
+    left: 5%;
+    top: 10vh;
+    box-shadow:10px 10px 10px rgb(133, 129, 129);
+}
+.img10{
+    width: 35%;
+    height: 60vh;
+    position: relative;
+    right: 40%;
+    box-shadow:10px 10px 10px rgb(133, 129, 129);   
+}
+.img11{
+    width: 35%;
+    height: 55vh;
+    position: relative;
+    left: 20%;
+    top: 5vh;
+    background-color: whitesmoke;
+    box-shadow:10px 10px 5px #999;
+}
+.service{
+    width: 100%;
+}
+.s1,.s3{
+    width: 40%;
+    height: 45vh;
+    background-color: white;
+    position: relative;
+    left: 7%;
+    top: 2vh;
+    box-shadow: 5px 5px 5px #999;
+}
+.s2,.s4{
+    width: 40%;
+    height: 45vh;
+    background-color: white;
+    position: relative;
+    left: 12%;
+    top: 2vh;
+    box-shadow: 5px 5px 5px #999;
+}
+.img12{
+    width: 15%;
+    height: 8vh;
+    position: relative;
+    top: 2vh;
+    left: 5%;
+}
+.s11{
+    display: flex;
+}
+.s12{
+    position: relative;
+    left: 20%;
+    top: 1vh;
+}
+.top1{
+    position: relative;
+    top: 3vh;
+}
+.top2{
+    position: relative;
+    left: 6%;
+}
+.Blog{
+    width: 100%;
+    display: flex;
+}
+.Blog1{
+    width: 28%;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    left: 3%;
+}
+.img13{
+    width: 100%;
+    height: 40%;
+}
+.Blog2{
+    width: 28%;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    left: 7%;
+}
+.img14{
+    width: 100%;
+    height: 40%;
+}
+.Blog3{
+    width: 28%;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    left: 12%;
+}
+.img15{
+    width: 100%;
+    height: 30%;
+}
+.Blog1:hover,.Blog2:hover,.Blog3:hover{
+    zoom: 103%;
+    box-shadow:5px 5px 5px rgb(133, 129, 129);
+}
+.silver:hover,.gold:hover,.custom:hover{
+    zoom: 102%;
+    box-shadow:3px 3px 3px rgb(184, 182, 182);
+}
+.foot{
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(92, 88, 99);
+}
+.f1{
+    width: 20%;
+    height: 45vh;
+    position: relative;
+    top: 2vh;
+    left:5%;
+    border-right:1px solid white;
+}
+.f2{
+    width: 20%;
+    height: 45vh;
+    position: relative;
+    top: 2vh;
+    left: 8%;
+    border-right:1px solid white;
+}
+.f3{
+    width: 20%;
+    height: 45vh;
+    position: relative;
+    top: 2vh;
+    left: 12%;
+    text-decoration: none;
+}
+.f4{
+    width: 25%;
+    height: 50vh;
+    position: relative;
+    top: 2vh;
+    left: 12%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.f5{
+    display: flex;
+}
+.yy{
+    width: 15%;
+    font-size: xx-large;
+    position: relative;
+    left: 15%;
+}
+.x{
+    position: relative;
+    letter-spacing: .5pz;
+    cursor: pointer;
+}
+.x:before,
+.x:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width:0 ;
+    background-color:indigo;
+    transition: .8s;
+}
+a:before{
+    right: 0;
+    top: -10px;
+}
+a:after{
+    left: 0;
+    bottom: -10px;
+}
+a:hover:after,a:hover:before{
+    width: 100%;
+}
+.web{
+    width: 90%;
+    height: 35vh;
+    position: relative;
+    left: 5%;
+    text-align: center;
+    border: 1px solid;
+}
+.web:hover{
+    zoom: 99%;
+    box-shadow:3px 3px 3px 3px #999;
+}
+.contact{
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://th.bing.com/th/id/R.075747bdd5e2148e53f61ab7b4c3100f?rik=YZ5j6uHxpxfviw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fcpP43LW.jpg&ehk=dp1vcYeOOynPpl0fYN41PawE2NZcAfrxZ%2bsS%2bW4pI8Y%3d&risl=&pid=ImgRaw&r=0);
+}
+.detail{
+    width: 50%;
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+    left: 25%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.details{
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    top: 12vh;
+    left: 25%;
+    background-color: white;
+}
+.size{
+    font-size: x-small;
+    position: relative;
+    left: 1%;
+    top: -0.5vh;
+    color: red;
+}
+.move{
+    position: relative;
+    left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+}
+input{
+    text-align: center;
+    width: 50%;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: transparent;
+    position: relative;
+    left: 3%;
+    top: -3vh;
+}
+.option{
+    position: relative;
+    left: 2%;
+    top: -3vh;
+    width: 50%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: transparent;
+    font-size: large;
+}
+.click3{
+    background-color:darkred;
+    height: 6vh;
+    border-color: darkred;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 2%;
+    width: 20%;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
