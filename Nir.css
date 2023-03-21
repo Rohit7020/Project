@@ -546,10 +546,13 @@ h6{
 a:before{
     right: 0;
     top: -10px;
+    left:3vh
+   
 }
 a:after{
     left: 0;
     bottom: -10px;
+    right:3vh;
 }
 a:hover:after,a:hover:before{
     width: 100%;
